@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-image: url("../kepek/maglya.jpg");
+    max-width: 1200px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+body{
+    background-color: #FFF5E8;
+    max-width: 850px;
+    margin: 0px auto;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    color: rgb(129, 37, 3);
+}
+.footer{
+    background-color: #FFEBD0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1, h2{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+.jobbra{
+    float: right;
+    max-width: 300px;
+}
+.balra{
+    float: left;
+    max-width: 300px;
+}
+img{
+    min-width: 300px;
+    border-color: #FFEBD0;
+    border: 5px;
+    background-color:#FFFFFF;
+    padding: 5px;
+    max-width: 300px;
+    margin: 12px;
+}
+ul{
+    list-style-image: url("/egyéb/Suli/CSS/busojaras/kepek/jel.png");
+    line-height: 40px;
+    color: rgb(129, 37, 3);
+}
